@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Malaysia tourism website">
+        <meta name="keywords" content="Malaysia, tourism">
+        <meta name="author" content="UTAR STUDENTS">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <!--Favicon-->
+        <link rel="icon" type="image/x-icon" href="Pic/favicon.png">
+        <!---AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!--link ofr azeret font-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+         <!--Taviraj-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+         <!--Truculenta-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+         <!--Trade wind-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+         <!--MuseoModerno-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
+         <!--Urbanist-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+         <!--Vibur-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Vibur&display=swap" rel="stylesheet">
+         <!---Viga font-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+         <!--vast shadow font-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+         <!--Calistogo-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+         <!---AnonymousPro-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+         <!--Override this page's body color-->
+         <style>
+            body{
+                background: linear-gradient(80deg, #07878c, #59ffe9);
+            }   
+         </style>
+         <title>Kuching's Hotspots</title>
+    </head>
+    <button class="btn btn-primary back-to-top" id="backToTopBtn" title="Go to top">
+        <i class="bi bi-arrow-up">^</i> 
+    </button>
+    <body>
+        <header>
+            <nav class="navbar fixed-top shadow-sm ">
+                <div class="container-fluid">
+
+                    <div class="navbar-brand">
+                        <div class="logo">
+                            <div class="header-text ms-3">
+                                <p> SARAWAK</p>
+                            </div>
+                            <img src="Pic/Logo.png" alt="Malaysia My Choice" class="d-inline-block align-top logo"> 
+                        </div>
+                        <!-- Burger button remains visible on all screen sizes -->
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon top-bar"></span>
+                            <span class="toggler-icon middle-bar"></span>
+                            <span class="toggler-icon bottom-bar"></span>
+                        </button>
+                        <div class="navigators">
+                            <a class="animated-button" href="food.html" target="_blank">
+                                <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                     ></path>
+                                    </svg>
+                                    <span class="text">TO FOOD!</span>
+                                    <span class="circle"></span>
+                                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-collapse" id="navbarSupportedContent">
+                        <div class="sidebar-logo-container">
+                            <img src="Pic/logo_icon.png" alt="Malaysia My Choice" class="sidebar-logo">
+                            <p class="logo-text azeret-mono-MenuFont" >Malaysia My Choice</p>
+                        </div>
+                
+                        <ul class="navbar-nav ms-auto flex-column text-end">
+                            <li class="nav-item">
+                                <a class="nav-link azeret-mono-MenuFont" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link azeret-mono-MenuFont" href="#">13 States</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link azeret-mono-MenuFont" href="#">About us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </nav>
+        </header>
+        <div class="p_head">
+            <div class="p_title1">
+                <p class="truculenta">Activies in</p>
+            </div>
+            <div class="p_title2">
+                <p class="museomoderno">SARAWAK</p>
+            </div>
+        </div>
+    <div class="slider-wrap">
+        <div class="p_container">
+            <div class="p_slider">
+                <div class="p_slides" style="--img: url('Pic/Sarawak/Bako_Monkey.jpeg')">
+                    <div class="overlay2"></div>
+                    <div class="content">
+                        <h2>Bako National Park</h2>
+                        <p>Bako National Park, the oldest national park in Kuching Sarawak, and renowned for its 
+                            diverse wildlife and dramatic coastal landscapes. The park's stunning rock formations, secluded beaches, 
+                            and dense mangroves make it a popular destination for nature lovers and hikers.</p>
+                    </div>
+                </div>
+                <div class="p_slides" style="--img: url('Pic/Sarawak/Carpenter_Street.jpg')">
+                    <div class="overlay2"></div>
+                    <div class="content">
+                        <h2>Carpenter Street, Kuching</h2>
+                        <p>Carpenter Street in Kuching is a historic and bustling street known for its rich cultural heritage and 
+                            charming old-world architecture. Lined with traditional shophouses, the street offers a mix of local eateries, 
+                            vibrant markets, and artisanal shops</p>
+                    </div>
+                </div>
+                <div class="p_slides" style="--img: url('Pic/Sarawak/waterfront-slide.jpg')">
+                    <div class="overlay2"></div>
+                    <div class="content">
+                        <h2>Waterfront, Kuching</h2>
+                        <p>Waterfront Kuching is a picturesque riverside area in the heart of Kuching, Sarawak, 
+                        offering a scenic promenade along the Sarawak River. The waterfront comes alive at night with a 
+                        stunning display of lights, creating a vibrant and enchanting atmosphere.</p>
+                    </div>
+                </div>
+                <div class="p_slides" style="--img: url('Pic/Sarawak/Kampung_budaya2.jpg')">
+                    <div class="overlay2"></div>
+                    <div class="content">
+                        <h2>Cultural Village, Kuching</h2>
+                        <p>Kampung Budaya in Kuching, Sarawak, is a vibrant cultural village that celebrates the diverse heritage of 
+                        Malaysia through traditional arts, crafts, and performances. It offers visitors an 
+                        immersive experience into the rich cultural tapestry of Sarawak’s indigenous communities.</p>
+                    </div>
+                </div>
+                <div class="p_slides" style="--img: url('Pic/Sarawak/lambir-hills-national.jpg')">
+                    <div class="overlay2"></div>
+                    <div class="content">
+                        <h2>Lambir Hills, Miri</h2>
+                        <p>Lambir Hills National Park, located near Miri, Sarawak, is known for its rich biodiversity and 
+                        stunning rainforest landscapes. The park offers a variety of hiking trails, leading to beautiful 
+                        waterfalls and scenic viewpoints, perfect for nature enthusiasts and birdwatchers
+                        looking to explore Sarawak's natural beauty.</p>
+                    </div>
+                </div>
+                <div class="p_slides" style="--img: url('Pic/Sarawak/siniawan.jpeg')">
+                    <div class="overlay2"></div>
+                    <div class="content">
+                        <h2>Siniawan, Kuching</h2>
+                        <p>Siniawan Night Market, located in Kuching, Sarawak, is a charming weekend market known for its vibrant atmosphere 
+                        and delicious local food. The market is set along a historic old-town street, offering a variety of traditional 
+                        dishes and snacks, as well as live music. It's a popular spot for both locals and 
+                        tourists to enjoy Sarawak's culture and street food scene.</p>
+                    </div>
+                </div>
+                <div class="p_slides" style="--img: url('Pic/Sarawak/SibeMarket.jpg')">
+                    <div class="overlay2"></div>
+                    <div class="content">
+                        <h2>Sibu Central, Market</h2>
+                        <p>Sibu Central Market, located in Sibu, Sarawak, is the largest indoor market in Malaysia,
+                        The market is known for its vibrant atmosphere, featuring everything from fruits, vegetables, and seafood 
+                        to traditional Iban handicrafts. It's a bustling hub that showcases the diverse culture and culinary richness of the region.</p>
+                    </div>
+                </div>
+                <div class="p_slides" style="--img: url('Pic/Sarawak/Pinnacles_at_Mulu_2.jpg')">
+                    <div class="overlay2"></div>
+                    <div class="content">
+                        <h2>MULU National Park</h2>
+                        <p>Mulu National Park in Miri is renowned for its stunning limestone karst formations, 
+                            extensive cave systems, and rich biodiversity. The rainforest is teeming with 
+                            diverse wildlife and plant species, making it a haven for nature enthusiasts. It's a UNESCO World Heritage site, 
+                            offering a remarkable adventure for those seeking natural beauty and exploration.</p>
+                    </div>
+                </div>
+                <div class="p_slides" style="--img: url('Pic/Sarawak/Niah.jpg')">
+                    <div class="overlay2"></div>
+                    <div class="content">
+                        <h2>Niah National Park</h2>
+                        <p>Niah National Park, renowned for being the site of the oldest human remains found in Southeast Asia, 
+                        is a must-visit destination for history and nature enthusiasts. The park has series of impressive caves, 
+                        each holding significant archaeological treasures and offers an unforgettable journey into both history and nature.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p_buttons">
+                <span class="prev"></span>
+                <span class="next"></span>
+            </div>
+        </div>
+
+        <div class="image-details-wrap">
+            <div class="image-details" id="image-details">
+                <h3 id="image-title" ></h3>
+                <p id="image-description"></p>
+            </div>
+        </div>
+        <div class="custom-shape-divider-top-1723910619">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+   
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0" nonce="JBUPjOaL"></script>
+    <br>
+    <br>
+    <hr class="break-line-hr" data-aos="fade-in">
+    <div class="plugin">
+    <div class="fb-comments" data-href="https://levin0511.github.io/" colorscheme="dark" data-width="100%" data-numposts="3"></div>
+    </div>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 p-3 mb-3">
+                    <div class="footer-logo-container">
+                        <img src="Pic/Logo.png" alt="Malaysia My Choice" class="img-fluid mb-3">
+                        <p>Still waiting what?? Let's start the journey!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 p-3 mb-3">
+
+                    <div id="footer-explore">
+                        <h5>Explore</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Home</a></li>
+                            <li><a href="#" class="text-white">13 states</a></li>
+                            <li><a href="#" class="text-white">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 p-3 mb-3">
+                    <div id="footer-contact">
+                        <h5>Contact Us</h5>
+                        <p><a href="mailto:"> Email: info@malaysiamychoice.my</a></p> 
+                        <p><a href="tel"> Tel: +60 123-456-789</a></p>
+                    </div>
+
+                    <h5>Follow Us</h5>
+                    <div class="social-container">
+                        <ul class="social-icons">
+                            <li><a href="https://www.instagram.com/malaysia_my_choice?igsh=MXBjbW01eGR2cGg2YQ==" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://x.com/MyChoiceweb?s=09" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=61564522110251&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3 mt-3 text-center">
+                <div class="copyright">
+                    <p>Copyright © 2024 UTAR</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <script>
+             const pictures = [
+                {
+                    title: "Carpenter Street, Kuching",
+                    description: "Carpenter Street, located in Kuching's Chinatown, offers a vibrant glimpse into the city's rich Chinese heritage. This bustling street is lined with charming shops, cafes, and eateries, showcasing a mix of traditional and contemporary influences. Wander through its inviting coffee houses and explore a variety of stores like Arts of Asia, Atelier Gallery, Sarawak House, Rainforest, Nelson’s Gallery, and Native Arts, where you can find unique antiques, handicrafts, and souvenirs. In addition to its cultural appeal, Carpenter Street is a hub for nightlife with some of the best bars and pubs in Kuching, making it a lively spot for both day and evening visits. The area's historic architecture and bustling atmosphere provide a delightful backdrop for experiencing Kuching's local culture and vibrant scene."
+
+                },
+                {
+                    title: "Waterfront, Kuching",
+                    description: "The Kuching Waterfront is the most popular gathering spot in the capital city, stretching approximately 900 meters along the south bank of the Sarawak River. This vibrant esplanade is lined with a variety of food stalls, restaurants, bistros, and street food hawkers, offering a diverse range of dining options. Visitors can admire colonial-era buildings repurposed for modern use, such as the Chinese History Museum, Sarawak Steamship Building, and Square Tower, alongside a contemporary amphitheatre that hosts live entertainment. By day, the Waterfront provides stunning views of the north bank, where landmarks like the Astana (the governor's mansion), Fort Margherita, and the imposing State Assembly Building stand out with their distinct white exteriors. The nearby Malay kampungs add a touch of Sarawak’s rich heritage from the Brooke family era. As night falls, the esplanade transforms into a lively hub with buskers performing ethnic and contemporary music, while the Darul Hana Musical Fountain dazzles visitors with its colorful light displays. The Kuching Waterfront is a dynamic space that seamlessly blends historical charm with modern vibrancy."
+                },
+                {
+                    title: "Cultural Village, Kuching",
+                    description: "The Sarawak Cultural Village, located just outside Kuching, offers an immersive experience into the diverse cultures of Sarawak's indigenous communities. This living museum features replicas of traditional longhouses from various ethnic groups, including the Iban, Bidayuh, and Orang Ulu. Visitors can explore these authentic structures, engage with local artisans demonstrating traditional crafts, and watch cultural performances such as dances and music. The village also includes interactive exhibits where guests can learn about local customs, traditional ceremonies, and daily life in Sarawak. The cultural village hosts the annual Rainforest World Music Festival, attracting musicians and visitors from around the world to celebrate global and local music traditions. It provides a rich and engaging way to experience the heritage and cultural diversity of Sarawak in one picturesque location."
+                },
+                {
+                    title: "Lambir Hills, Miri",
+                    description: "Covering a sprawling 6,949 hectares of naturally hilly terrain, Lambir Hills National Park is a haven of biodiversity, home to around 1,200 tree species and an equal number of insect species. The park's 52 hectares of lush greenery are recognized globally by scientists and researchers as one of the most ecologically diverse regions. Ecologists believe that Lambir Hills harbors many undiscovered plant and insect species. Visitors have the opportunity to observe 247 bird species soaring in the skies and may even encounter elusive wildlife like gibbons, tarsiers, and the clouded leopard. To increase your chances of spotting these creatures, it's advisable to visit in smaller groups to minimize disturbance. The park's intricate jungle trails offer an immersive experience in its pristine rainforest. First-time visitors will find the 15-minute walk to the famous Latak Waterfall a delightful introduction to the park's natural beauty. For seasoned adventurers, the four-hour hike to Bukit Lambir’s 465-meter peak promises a rewarding climb with breathtaking views of the surrounding rainforest. After a challenging trek, a refreshing dip in the cooling pool beneath the waterfall is the perfect way to rejuvenate."
+                },
+                {
+                    title: "Siniawan, Kuching",
+                    description: "Siniawan, a quaint town located about 20 kilometers from Kuching in the Bau district, transforms into a vibrant hub on weekends with the Siniawan Night Market. This lively market takes over the town's streets, offering an array of local delicacies and street snacks that showcase the region's culinary diversity. The real charm of the night market lies in its enchanting atmosphere, created by an abundance of Chinese lanterns that illuminate the streets with a warm, movie-like glow. Visitors can wander through stalls offering everything from savory treats to sweet delights, all while enjoying the festive and captivating ambiance. Siniawan Night Market is a must-visit for those looking to experience a blend of local flavors and cultural charm."
+                },
+                {
+                    title: "Sibu Central Market, Sibu",
+                    description: "The Sibu Central Market, the largest indoor market in Malaysia and a significant landmark in Sarawak, offers a bustling and vibrant shopping experience. Spanning thousands of stalls, this extensive market features a diverse range of goods and is known for its unique and lively atmosphere. Highlights include Iban ladies selling exotic fruits, jungle produce, and traditional handicrafts, providing a taste of local culture and biodiversity. Additionally, the market is famous for its Chinese poultry sellers, who present live chickens and ducks wrapped in creative tubes made from old newspapers. The Sibu Central Market is a must-visit destination for those looking to explore Sarawak's rich culinary and cultural landscape."
+                },
+                {
+                    title: "MULU National Park, Miri",
+                    description: "Mulu National Park, located in northern Sarawak, Malaysia, is renowned for its extraordinary geological and ecological features. The park is famous for its extensive and impressive cave systems, including the world’s largest cave chamber, Sarawak Chamber, and one of the longest networks of caves globally. Visitors can explore the spectacular Deer Cave, Clearwater Cave, and other natural wonders, which offer a glimpse into the region's unique underground landscapes. In addition to its caves, Mulu National Park boasts striking limestone karst formations and lush rainforest that supports a rich diversity of flora and fauna. The park is also home to the iconic Pinnacles, dramatic spires of limestone that provide breathtaking views. As a UNESCO World Heritage site, Mulu offers an unparalleled opportunity for adventure and exploration, with well-maintained trails and guided tours available for a range of interests, from caving to wildlife spotting."
+                },
+                {
+                    title: "Niah National Park, Miri",
+                    description: "Niah National Park, located in Sarawak, Malaysia, is renowned for its significant archaeological and natural features. The park is most famous for the Niah Caves, where some of the oldest human remains in Southeast Asia were discovered, providing crucial insights into early human history. The main caves, including the Great Cave and the Painted Cave, are not only archaeological treasures but also stunning natural formations. The park's lush rainforest is home to diverse flora and fauna, including various bird species, insects, and small mammals. Visitors can explore well-marked trails that lead through the rainforest and up to the caves, offering a chance to experience the park's rich biodiversity. The park also features a canopy walk, which provides a unique perspective on the rainforest ecosystem. Niah National Park is a fascinating destination for those interested in both cultural history and natural beauty."
+                },
+                {
+                    title: "Bako National Park, Kuching",
+                    description: 'Bako National Park, though one of Southeast Asia\'s smaller national parks, offers an impressive diversity of Bornean vegetation and wildlife. The park\'s highlight is the proboscis monkey, with its distinctive large nose and pot-bellied charm, but it also boasts a vibrant array of other animals including long-tailed macaques, silvered leaf monkeys, flying lemurs, monitor lizards, and squirrels. Visitors can explore this lush landscape, which is rich in both flora and fauna. Accessible via a 37-kilometer drive from Kuching followed by a 20-minute boat ride, Bako National Park invites you to spend a whole day immersed in nature. For a more leisurely experience, stay overnight in one of the park\'s cozy cabins, equipped with treated water and electricity, and enjoy meals at the cafeteria. The park also features an interpretation center with information about its natural resources, and an education center for conservation activities. Bako’s coastline is characterized by its scenic bays, dramatic cliffs, and sandy beaches, with notable sights such as the sea stack at Teluk Pandan Kecil. For a tranquil retreat, Lakei Island offers a serene escape into the natural world.'
+                }];
+            let next = document.querySelector('.next');
+            let prev = document.querySelector('.prev');
+            let slider = document.querySelector('.p_slider');
+            let index = 0;
+            const totalPictures = pictures.length;
+
+            function updateDetails(){
+
+                const details = document.getElementById('image-details');
+                details.classList.remove('active');
+                const title = pictures[index].title;
+                const desc = pictures[index].description;
+
+                document.getElementById('image-title').innerText = title;
+                document.getElementById('image-description').innerText = desc;
+
+                setTimeout(() => {
+                details.classList.add('active');
+                }, 50);
+            
+            }
+
+            next.addEventListener('click', function(){
+                let slides = document.querySelectorAll('.p_slides');
+                slider.appendChild(slides[0]);
+
+                index = (index + 1) % totalPictures; 
+                updateDetails();
+            });
+            prev.addEventListener('click', function(){
+                let slides = document.querySelectorAll('.p_slides');
+                slider.prepend(slides[slides.length -1]);
+
+                index = (index - 1 + totalPictures) % totalPictures;
+                updateDetails();
+            });
+
+            updateDetails();
+        </script>
+        <script>
+            var backToTopBtn = document.getElementById("backToTopBtn");
+            window.onscroll = function() {
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    backToTopBtn.style.display = "block";
+                } else {
+                    backToTopBtn.style.display = "none";
+                }
+            };
+            backToTopBtn.onclick = function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            };
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
